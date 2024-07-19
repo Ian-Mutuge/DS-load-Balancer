@@ -120,7 +120,7 @@ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 
 #### Performance Tests
 1. **Load Testing**:
-   - Use tools like `Apache JMeter` or `Locust` to simulate high traffic and observe the load distribution and fault tolerance.
+   - Use tools like `aiohttp` or `requests` to simulate high traffic and observe the load distribution and fault tolerance.
 
 2. **Experiment Scenarios**:
    - **A-1**: Launch 10000 async requests on 3 server containers and report the request count handled by each server instance.
